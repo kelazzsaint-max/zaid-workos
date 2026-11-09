@@ -1,4 +1,4 @@
-# Kontrak API Khwarizmi WorkOS
+# Kontrak API Khawarizmi WorkOS
 
 ## Cara Membaca
 

@@ -1,4 +1,4 @@
-# ERD Khwarizmi WorkOS
+# ERD Khawarizmi WorkOS
 
 ## Diagram Hubungan
 
