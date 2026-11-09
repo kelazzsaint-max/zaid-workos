@@ -4,7 +4,7 @@
 
 ```mermaid
 erDiagram
-CLIENT ||--o{ USER : punya
+CLIENT |o--o{ USER : punya
 CLIENT ||--o{ PROJECT : memiliki
 USER ||--o{ PROJECT : membuat
 USER ||--o{ ProjectMember : ikut
@@ -12,7 +12,7 @@ PROJECT ||--o{ ProjectMember : punya_anggota
 PROJECT ||--o{ MILESTONE : punya
 PROJECT ||--o{ TASK : punya
 MILESTONE |o--o{ TASK : mengelompokkan
-USER ||--o{ TASK : dikerjakan
+USER |o--o{ TASK : mengerjakan
 TASK ||--o{ COMMENT : punya
 USER ||--o{ COMMENT : menulis
 TASK ||--o{ APPROVAL : punya
